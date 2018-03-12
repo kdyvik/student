@@ -122,7 +122,7 @@ header img {
 /* ----- TEMPLATE ----- */
 
 .main-part {
-    width: 80%;
+    width: 70%;
     margin: 1% auto 10% auto;
 }
 
@@ -171,8 +171,91 @@ header img {
     float: right;
 }
 
-<<<<<<< HEAD
-=======
+/*------ ARTICLE ----- */
+
+.description {
+    background-color: #f0f0f0;
+    font-style: italic;
+    padding-left: 1%;
+}
+
+.ingress,
+.article-paragraph {
+    width: 60%;
+}
+
+.main-article h3 {
+    margin: 7% 0 2% 0;
+}
+
+.publishing-date {
+    font-size: 75%;
+    font-style: italic;
+}
 
 
->>>>>>> 73e306db80e0dd44d0734f43314b3b961dd32024
+/*
+===============
+    FOOTER
+===============
+*/
+
+footer {
+    margin: auto auto;
+    background-color: #595959;
+    padding: 3% 0;
+    width: 100%;
+    color: #c5c5c5;
+}
+
+footer p {
+    text-align: center;    
+}
+
+.footer-links {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer nav li {
+    padding: 0 5px;
+}
+
+.footer-nav,
+.social-nav {
+    display: inline-block;
+}
+
+.social-nav {
+    float: right;
+}
+
+.social-nav li i {
+    font-size: 150%;
+}
+
+.footer-nav li a,
+.social-nav li i {
+  transition: color 0.3s;  
+}
+
+.footer-nav li a:active,
+.footer-nav li a:hover {
+    color: #fff;
+}
+
+.ion-social-facebook:hover,
+.ion-social-facebook:active {
+    color: #4367b1;
+}
+
+.ion-social-twitter:hover,
+.ion-social-twitter:active {
+    color: #1dcaff;
+}
+
+.ion-social-instagram:hover,
+.ion-social-instagram:active {
+    color: #8a3ab9;
+}
+
