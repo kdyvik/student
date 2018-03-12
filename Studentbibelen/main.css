@@ -123,7 +123,7 @@ header img {
 
 .main-part {
     width: 70%;
-    margin: 1% auto 10% auto;
+    margin: 3% auto 10% auto;
 }
 
 .main-part a {
@@ -194,6 +194,26 @@ header img {
 }
 
 
+/*----- ARTICLE DISPLAY ----- */
+
+
+.article-display figure {
+    width: 30%;
+    display: inline-block;
+}
+
+.article-display figcaption {
+    float: right;
+    width: 70%;
+}
+
+.article-display p,
+.article-display h3 {
+    margin-left: 5%;
+}
+
+
+
 /*
 ===============
     FOOTER
@@ -258,4 +278,6 @@ footer nav li {
 .ion-social-instagram:active {
     color: #8a3ab9;
 }
+
+
 
