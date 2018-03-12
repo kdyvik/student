@@ -188,3 +188,69 @@ header img {
     font-style: italic;
 }
 
+
+/*
+===============
+    FOOTER
+===============
+*/
+
+footer {
+    margin: auto auto;
+    background-color: #595959;
+    padding: 3% 0;
+    width: 100%;
+    color: #c5c5c5;
+}
+
+footer p {
+    text-align: center;    
+}
+
+.footer-links {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer nav li {
+    padding: 0 5px;
+}
+
+.footer-nav,
+.social-nav {
+    display: inline-block;
+}
+
+.social-nav {
+    float: right;
+}
+
+.social-nav li i {
+    font-size: 150%;
+}
+
+.footer-nav li a,
+.social-nav li i {
+  transition: color 0.3s;  
+}
+
+.footer-nav li a:active,
+.footer-nav li a:hover {
+    color: #fff;
+}
+
+.ion-social-facebook:hover,
+.ion-social-facebook:active {
+    color: #4367b1;
+}
+
+.ion-social-twitter:hover,
+.ion-social-twitter:active {
+    color: #1dcaff;
+}
+
+.ion-social-instagram:hover,
+.ion-social-instagram:active {
+    color: #8a3ab9;
+}
+
