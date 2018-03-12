@@ -120,7 +120,7 @@ header img {
 /* ----- TEMPLATE ----- */
 
 .main-part {
-    width: 80%;
+    width: 70%;
     margin: 1% auto 10% auto;
 }
 
@@ -169,8 +169,25 @@ header img {
     float: right;
 }
 
-<<<<<<< HEAD
-=======
+/*------ ARTICLE ----- */
 
+.description {
+    background-color: #f0f0f0;
+    font-style: italic;
+    padding-left: 1%;
+}
 
->>>>>>> 73e306db80e0dd44d0734f43314b3b961dd32024
+.ingress,
+.article-paragraph {
+    width: 60%;
+}
+
+.main-article h3 {
+    margin: 7% 0 2% 0;
+}
+
+.publishing-date {
+    font-size: 75%;
+    font-style: italic;
+}
+
