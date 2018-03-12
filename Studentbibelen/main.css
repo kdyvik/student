@@ -40,6 +40,7 @@ nav li {
 nav a {
     text-decoration: none;
     color: inherit;
+    line-height: 0;
 }
 
 
@@ -62,6 +63,7 @@ header {
 header a {
     padding: 0;
     margin: 0;
+    line-height: 0;
 }
 
 header img {
@@ -71,7 +73,10 @@ header img {
 
 header img {
     margin-left: 5%;
-    width: 10%;
+    width: 15%;
+    float: left;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .main-nav {
