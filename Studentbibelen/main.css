@@ -50,7 +50,8 @@ nav a {
 */
 
 header {
-    padding: 1%;
+    padding: 0;
+    margin: 0;
     color: #fff;
     background-color: #47d147;
     display: inline-block;
@@ -58,19 +59,15 @@ header {
 
 }
 
-header h1,
+header a {
+    padding: 0;
+    margin: 0;
+}
+
 header img {
     display: inline-block;
 }
 
-header h1 a {
-    text-decoration: none;
-    color: #fff;
-}
-
-header h1 {
-    margin-left: 2%;
-}
 
 header img {
     margin-left: 5%;
@@ -97,7 +94,7 @@ header img {
 
 .main-nav li:last-child {
     border-right: none;
-    padding-right: none;
+    padding-right: 0;
 }
 
 .main-nav li a:link,
