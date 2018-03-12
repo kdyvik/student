@@ -57,6 +57,7 @@ header {
     background-color: #47d147;
     display: inline-block;
     width: 100%;
+    position: relative;
 
 }
 
@@ -72,24 +73,29 @@ header img {
 
 
 header img {
-    margin-left: 5%;
+    margin-left: 15%;
     width: 15%;
     float: left;
     margin-top: 1%;
     margin-bottom: 1%;
+
 }
 
 .main-nav {
     margin-right: 5%;
     float: right;
     width: auto;
-
+    position: absolute;
+    font-size: 2vw;
+    top: 32%;
+    margin-left: 35%;
 }
 
 .main-nav ul {
     margin: 0;
     padding: 0;
-    float: right;
+    float: left;
+
 }
 
 .main-nav li {
