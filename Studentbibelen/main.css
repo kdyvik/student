@@ -1,0 +1,165 @@
+/* COLOURS */
+/* LIGHT GREEN: #47d147 */
+/* DARK GREEN: #189800 */
+/* BEIGE: #cdc5b4 */
+/* DARK GREY: #595959 */
+/* LIGHT GREY: #7f7f7f */
+
+/* 
+================
+    BODY
+================
+*/
+
+body {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 100%;
+    font-size: 1.0vw;
+    background-color: #f6f6f6;
+}
+
+
+/* 
+===========================
+    REUSABLE COMPONENTS
+===========================
+*/
+
+/*----- NAVIGATION ----- */
+
+nav {
+    text-transform: uppercase;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* 
+================
+    HEADER
+================
+*/
+
+header {
+    width: auto;
+    padding: 1%;
+    color: #fff;
+    background-color: #47d147;
+}
+
+header h1,
+header img {
+    display: inline-block;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header h1 {
+    margin-left: 2%;
+}
+
+header img {
+    margin-left: 5%;
+    width: 10%;
+}
+
+.main-nav {
+    margin-right: 5%;
+    float: right;
+}
+
+.main-nav li {
+    padding-right: 8px;
+    padding-left: 8px; 
+}
+
+.main-nav li:last-child {
+    border-right: none;
+    padding-right: none;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s, border-bottom 0.3s; 
+}
+
+.main-nav li a:hover, 
+.main-nav li a:active {
+    border-bottom: 2px solid #fff;
+}
+
+/*
+===============
+    MAIN
+===============
+*/
+
+/* ----- TEMPLATE ----- */
+
+.main-part {
+    width: 80%;
+    margin: 1% auto 10% auto;
+}
+
+.main-part a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main-part article {
+    margin-bottom: 5%;
+}
+
+.main-part img {
+    width: 100%;
+    display: block;
+}
+
+.main-part figure {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.news-teaser {
+    background-color: #fff;
+    position: absolute;
+    bottom: 0;
+    padding: 0 2% 0 1%;
+}
+
+.main-article .news-teaser {
+    font-size: 200%;
+}
+
+.sub-article {
+    width: 25%;
+    display: inline-block;
+}
+
+.sub-article:last-child {
+    float: right;
+}
+
+.sub-article p {
+    margin: 2% 0;
+    color: #555;
+}
+
+.sub-article p a {
+    color: red;
+}
